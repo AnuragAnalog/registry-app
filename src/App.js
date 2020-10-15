@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
-import Home from "./Home";
-import Registry from "./Registry";
+import Home from "./routes/Home";
+import Registry from "./routes/Registry";
 import './App.css';
 
 function App() {
