@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import './Registry.css';
 
 function Registry() {
     const [registryData, setRegistryData] = useState([])
